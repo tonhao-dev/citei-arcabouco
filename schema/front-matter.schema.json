@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tonhao-dev/citei-arcabouco/schema/front-matter.schema.json",
+  "title": "Citei spec front-matter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["spec_id", "title", "spec_type", "status", "owner", "last_updated", "tags", "replacement"],
+  "properties": {
+    "spec_id": {
+      "type": "string",
+      "pattern": "^(ARCH|ADR|STD|SEC|AI)-[0-9]{3}$",
+      "description": "Prefix plus three digits. Immutable. Never reused."
+    },
+    "title": { "type": "string", "minLength": 3 },
+    "spec_type": {
+      "enum": ["architecture", "adr", "security", "standard", "ai-guideline"]
+    },
+    "status": { "enum": ["draft", "approved", "deprecated"] },
+    "owner": { "type": "string", "minLength": 1 },
+    "last_updated": { "type": "string", "format": "date" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "uniqueItems": true
+    },
+    "replacement": {
+      "anyOf": [
+        { "type": "null" },
+        { "type": "string", "pattern": "^(ARCH|ADR|STD|SEC|AI)-[0-9]{3}$" }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "deprecated" } } },
+      "then": { "properties": { "replacement": { "type": "string" } } }
+    }
+  ]
+}

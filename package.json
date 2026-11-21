@@ -1,0 +1,21 @@
+{
+  "name": "citei-arcabouco",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Regras, decisões e documentação do Citei para humanos e agentes de IA.",
+  "type": "module",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "validate": "node tools/validate.ts",
+    "index": "node tools/build-index.ts",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "husky": "^9.1.7",
+    "yaml": "^2.8.1"
+  }
+}

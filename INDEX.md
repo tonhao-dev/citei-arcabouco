@@ -10,7 +10,6 @@ Resolve a spec ID to its file. Only `approved` specs are rules.
 | ADR-002 | [A pasta-mãe é a raiz, e o .kiro chega a ela por junção](specs/adr/ADR-002-pasta-mae-e-juncao-kiro.md) | adr | draft | kiro, workspace, docs |
 | AI-001 | [Agent conduct](specs/ai/AI-001-agent-conduct.md) | ai-guideline | draft | ai, agents |
 | ARCH-001 | [System overview](specs/architecture/ARCH-001-system-overview.md) | architecture | draft | architecture, stack |
-| ARCH-002 | [C4 nível 1, contexto do sistema](specs/architecture/ARCH-002-c4-system-context.md) | architecture | draft | architecture, c4 |
 | ARCH-003 | [C4 nível 2, containers](specs/architecture/ARCH-003-c4-container.md) | architecture | draft | architecture, c4 |
 | SEC-001 | [Secrets stay out of git](specs/security/SEC-001-secrets.md) | security | draft | security, secrets, snyk |
 | STD-001 | [Testing](specs/standards/STD-001-testing.md) | standard | draft | tests, vitest, playwright, fast-check |

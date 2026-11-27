@@ -12,7 +12,7 @@ replacement: null
 # System overview
 
 Citei stores quotes by an author, grouped in collections, and shows them in the browser.
-The system context diagram is [ARCH-002]. Domain terms are in [GLOSSARY.md](../../GLOSSARY.md).
+The container diagram is [ARCH-003]. Domain terms are in [GLOSSARY.md](../../GLOSSARY.md).
 
 ## Workspace layout
 

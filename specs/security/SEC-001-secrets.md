@@ -2,9 +2,9 @@
 spec_id: SEC-001
 title: Secrets stay out of git
 spec_type: security
-status: draft
+status: approved
 owner: luis
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 tags: [security, secrets, snyk]
 replacement: null
 ---

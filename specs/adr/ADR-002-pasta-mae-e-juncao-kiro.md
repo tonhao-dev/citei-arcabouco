@@ -2,9 +2,9 @@
 spec_id: ADR-002
 title: A pasta-mãe é a raiz, e o .kiro chega a ela por junção
 spec_type: adr
-status: draft
+status: approved
 owner: luis
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 tags: [kiro, workspace, docs]
 replacement: null
 ---

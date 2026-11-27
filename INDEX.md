@@ -6,12 +6,12 @@ Resolve a spec ID to its file. Only `approved` specs are rules.
 
 | ID | Title | Type | Status | Tags |
 |---|---|---|---|---|
-| ADR-001 | [O Pact Broker roda só localmente, no compose do backend](specs/adr/ADR-001-pact-broker-local.md) | adr | draft | pact, contracts, local |
-| ADR-002 | [A pasta-mãe é a raiz, e o .kiro chega a ela por junção](specs/adr/ADR-002-pasta-mae-e-juncao-kiro.md) | adr | draft | kiro, workspace, docs |
-| AI-001 | [Agent conduct](specs/ai/AI-001-agent-conduct.md) | ai-guideline | draft | ai, agents |
-| ARCH-001 | [System overview](specs/architecture/ARCH-001-system-overview.md) | architecture | draft | architecture, stack |
-| ARCH-003 | [C4 nível 2, containers](specs/architecture/ARCH-003-c4-container.md) | architecture | draft | architecture, c4 |
-| SEC-001 | [Secrets stay out of git](specs/security/SEC-001-secrets.md) | security | draft | security, secrets, snyk |
-| STD-001 | [Testing](specs/standards/STD-001-testing.md) | standard | draft | tests, vitest, playwright, fast-check |
-| STD-002 | [API changes go through Pact](specs/standards/STD-002-api-change-pact.md) | standard | draft | api, pact, contracts |
-| STD-003 | [Commits and branches](specs/standards/STD-003-commits.md) | standard | draft | git, commits |
+| ADR-001 | [O Pact Broker roda só localmente, no compose do backend](specs/adr/ADR-001-pact-broker-local.md) | adr | approved | pact, contracts, local |
+| ADR-002 | [A pasta-mãe é a raiz, e o .kiro chega a ela por junção](specs/adr/ADR-002-pasta-mae-e-juncao-kiro.md) | adr | approved | kiro, workspace, docs |
+| AI-001 | [Agent conduct](specs/ai/AI-001-agent-conduct.md) | ai-guideline | approved | ai, agents |
+| ARCH-001 | [System overview](specs/architecture/ARCH-001-system-overview.md) | architecture | approved | architecture, stack |
+| ARCH-003 | [C4 nível 2, containers](specs/architecture/ARCH-003-c4-container.md) | architecture | approved | architecture, c4 |
+| SEC-001 | [Secrets stay out of git](specs/security/SEC-001-secrets.md) | security | approved | security, secrets, snyk |
+| STD-001 | [Testing](specs/standards/STD-001-testing.md) | standard | approved | tests, vitest, playwright, fast-check |
+| STD-002 | [API changes go through Pact](specs/standards/STD-002-api-change-pact.md) | standard | approved | api, pact, contracts |
+| STD-003 | [Commits and branches](specs/standards/STD-003-commits.md) | standard | approved | git, commits |

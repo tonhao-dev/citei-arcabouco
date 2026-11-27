@@ -2,9 +2,9 @@
 spec_id: AI-001
 title: Agent conduct
 spec_type: ai-guideline
-status: draft
+status: approved
 owner: luis
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 tags: [ai, agents]
 replacement: null
 ---

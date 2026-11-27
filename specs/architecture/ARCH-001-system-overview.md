@@ -2,9 +2,9 @@
 spec_id: ARCH-001
 title: System overview
 spec_type: architecture
-status: draft
+status: approved
 owner: luis
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 tags: [architecture, stack]
 replacement: null
 ---

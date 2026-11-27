@@ -2,9 +2,9 @@
 spec_id: ADR-001
 title: O Pact Broker roda só localmente, no compose do backend
 spec_type: adr
-status: draft
+status: approved
 owner: luis
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 tags: [pact, contracts, local]
 replacement: null
 ---

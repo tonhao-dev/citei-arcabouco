@@ -2,9 +2,9 @@
 spec_id: STD-003
 title: Commits and branches
 spec_type: standard
-status: draft
+status: approved
 owner: luis
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 tags: [git, commits]
 replacement: null
 ---

@@ -2,9 +2,9 @@
 spec_id: STD-001
 title: Testing
 spec_type: standard
-status: draft
+status: approved
 owner: luis
-last_updated: 2026-11-21
+last_updated: 2026-11-27
 tags: [tests, vitest, playwright, fast-check]
 replacement: null
 ---

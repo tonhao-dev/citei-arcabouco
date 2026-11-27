@@ -2,7 +2,7 @@
 spec_id: ARCH-003
 title: C4 nível 2, containers
 spec_type: architecture
-status: draft
+status: approved
 owner: luis
 last_updated: 2026-11-27
 tags: [architecture, c4]
